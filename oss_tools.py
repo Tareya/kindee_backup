@@ -59,7 +59,7 @@ class oss_tools:
 
     '''初始化类'''
     def __init__(self):
-        self.auth = oss2.Auth('LTAI4FkeRPyPu7kEY8EPMTdv', 'UDdpw9F0YqOA0eyoKU71bsVHaIscN6')    # AK 认证
+        self.auth = oss2.Auth('xxxxxx', 'xxxxxx')    # AK 认证
         self.endpoint = 'oss-cn-hangzhou-internal.aliyuncs.com'                                # 内网 endpoint
         self.public_endpoint = 'oss-cn-hangzhou.aliyuncs.com'                                  # 公网 endpoint
         self.bucket_name = "uniondrug-kdbackup"                                                # bucket
